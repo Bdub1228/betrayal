@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Overview</title>
+    <link rel="stylesheet" href="../css/in_the_box.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/background.css">
+    <link rel="stylesheet" href="../css/headers.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-black py-3">
+        <div class="container px-5">
+            <a class="navbar-brand" href="../index.html"><span style="color: black;">Betrayal at House on the Hill</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Homepage</a></li>
+                    <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About the Game</a></li>
+                    <li class="nav-item"><a class="nav-link" href="In the box.html">Game Features</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">How to Play</a></li>
+                    <li class="nav-item"><a class="nav-link" href="webapp.html">Character Generator</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="container py-5">
+        <h1 class="text-center mb-5">Betrayal at House on the Hill: Game Overview</h1>
+
+        <!-- Game Overview -->
+        <section>
+            <h2>Game Overview</h2>
+            <p>
+                A 3-6 player board game where players explore a haunted house, uncover its rooms, and encounter spooky events.
+                The game unfolds in two phases:
+            </p>
+            <ul>
+                <li><strong>Exploration Phase:</strong> Players cooperate to explore the house.</li>
+                <li><strong>Haunt Phase:</strong> A "Haunt" is triggered, turning one player into a traitor, and the game becomes a battle between the traitor and the remaining heroes.</li>
+            </ul>
+            <p>Each playthrough is unique due to 50 different Haunts and a modular game board.</p>
+        </section>
+
+        <!-- Objective -->
+        <section class="my-5">
+            <h2>Objective</h2>
+            <p>
+                <strong>Before the Haunt:</strong> Explore the house, collect items, and grow stronger.<br>
+                <strong>After the Haunt:</strong>
+            </p>
+            <ul>
+                <li>The traitor works to achieve their sinister goal.</li>
+                <li>The heroes try to stop the traitor and complete their own objective.</li>
+            </ul>
+            <p>The winner is determined by which side accomplishes their goal first.</p>
+        </section>
+
+        <!-- Game Setup -->
+        <section class="my-5">
+            <h2>Game Setup</h2>
+            <ol>
+                <li>Place the starting tiles (<strong>Hallway</strong>, <strong>Entrance Hall</strong>, and <strong>Grand Staircase</strong>) in the center.</li>
+                <li>Also set out the <strong>Basement Landing</strong> and <strong>Upstairs Landing</strong> out.</li>
+                <li>Shuffle the room tiles and create a face-down stack.</li>
+                <li>Set aside the <strong>Traitor's Tome</strong> and <strong>Secrets of Survival</strong> books for the Haunt phase.</li>
+                <li>Place the monster cards, tokens, and dice nearby.</li>
+                <li>Players choose a character:
+                    <ul>
+                        <li>Each has a double-sided board with stats: <em>Might, Speed, Sanity,</em> and <em>Knowledge</em>.</li>
+                        <li>Give players matching bases and clips for their stats.</li>
+                    </ul>
+                </li>
+                <li>Players start in the <strong>Entrance Hall</strong>.</li>
+            </ol>
+        </section>
+
+        <!-- How to Play -->
+        <section class="my-5">
+            <h2>How to Play</h2>
+            <h3>Phase 1: The Exploration Phase</h3>
+            <ol>
+                <li><strong>Move:</strong> Move up to the number of spaces equal to your current Speed.</li>
+                <li>
+                    <strong>Explore New Rooms:</strong>
+                    <ul>
+                        <li>If you move through a doorway without a room, draw and place a room tile that matches the current floor.</li>
+                        <li>Align the tile's doorways with existing rooms and follow its instructions:
+                            <ul>
+                                <li><strong>Event:</strong> Draw and resolve an Event card.</li>
+                                <li><strong>Item:</strong> Draw an Item card.</li>
+                                <li><strong>Omen:</strong> Draw an Omen card, then roll for a Haunt.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Roll for the Haunt:</strong>
+                    <ul>
+                        <li>When you draw an Omen card, roll the same number of dice as Omen cards that have been drawn.</li>
+                        <li>If the total is more than 5, the Haunt begins.</li>
+                    </ul>
+                </li>
+            </ol>
+
+            <h3>Phase 2: The Haunt</h3>
+            <p>When the Haunt begins:</p>
+            <ul>
+                <li>Determine the traitor using the <em>Traitor's Tome</em> and scenario details.</li>
+                <li>Split the players:
+                    <ul>
+                        <li>The traitor reads their instructions.</li>
+                        <li>The heroes read the <em>Secrets of Survival</em>.</li>
+                    </ul>
+                </li>
+                <li>The traitor and heroes take turns trying to achieve their objectives.</li>
+            </ul>
+        </section>
+
+        <!-- Winning the Game -->
+        <section class="my-5">
+            <h2>Winning the Game</h2>
+            <p>The heroes or the traitor win by completing their specific Haunt objectives, which vary with each scenario.</p>
+            
+            <!-- Embedded YouTube Video -->
+            <div class="my-4">
+                <h2>Other questions watch video below:</h2>
+                <iframe width="560" height="315" 
+                    src="https://www.youtube.com/embed/br9MG7O0vf0" 
+                    title="Betrayal at House on the Hill Gameplay" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Visual Placeholder -->
+        <section>
+            <h2 class="my-4 text-center">Image of Characters</h2>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <img src="../assets/Characters from Betrayal.jpg" alt="Character Pieces" class="img-fluid rounded w-100 d-block mx-auto">
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

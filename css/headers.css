@@ -1,0 +1,99 @@
+/* Navigation */
+nav {
+    background-color: #000; /* Black background */
+    padding: 1rem;
+    position: relative;
+}
+
+nav a {
+    color: #fff; /* White text */
+    text-decoration: none; /* Remove underline */
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s, background-color 0.3s;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #f00; /* Red background on hover */
+}
+
+/* Menu styles */
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu > li {
+    position: relative;
+}
+
+.menu > li > a {
+    display: block;
+}
+
+/* Container for main content */
+.container {
+    padding: 20px;
+    background-color: #ffffff; /* White background for main content */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+    margin: 20px auto;
+    width: 80%; /* Center the main content with fixed width */
+    max-width: 1000px; /* Limit width on larger screens */
+}
+
+/* Hamburger Icon */
+.menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Hide the menu by default */
+    .menu {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    /* Show menu when active */
+    .menu.active {
+        display: flex;
+    }
+
+    /* Show hamburger icon */
+    .menu-toggle {
+        display: block;
+    }
+
+    /* Style the menu links on mobile */
+    nav a {
+        padding: 1rem;
+        font-size: 1.2rem;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/* Dropdown Styles (for multi-level menus if necessary) */
+.menu .dropdown {
+    display: none;
+    position: relative;
+}
+
+.menu > li.active .dropdown {
+    display: block;
+}

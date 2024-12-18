@@ -1,0 +1,132 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+    background-color: #f5f5dc; /* Cream background */
+    color: #000; /* Black text */
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #000; /* Black background */
+    color: #f00; /* Red text */
+}
+
+header h1, .display-3 {
+    font-family: 'Creepster', cursive; /* Creepy font for horror theme */
+    font-size: 2.5rem;
+    color: #f00; /* Red text */
+}
+
+.text-gradient {
+    color: #f00 !important; /* Override gradient text with red */
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #000 !important; /* Black navbar */
+}
+
+.navbar .navbar-brand, 
+.navbar .nav-link {
+    color: #fff !important; /* White text for links */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: #f00 !important; /* Red hover for links */
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #f00; /* Red button background */
+    border-color: #f00;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #900; /* Darker red */
+    border-color: #900;
+}
+
+.btn-outline-dark {
+    border-color: #000; /* Black border */
+    color: #000; /* Black text */
+}
+
+.btn-outline-dark:hover {
+    background-color: #000; /* Black background on hover */
+    color: #fff; /* White text */
+}
+
+/* Main Content */
+section {
+    background-color: #fff; /* White background for sections */
+    border: 1px solid #000; /* Black border for emphasis */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+}
+
+h2, h3 {
+    color: #f00; /* Red headings */
+}
+
+p, li {
+    color: #000; /* Black text for readability */
+}
+
+/* Lists */
+ul, ol {
+    padding-left: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Links */
+a {
+    color: #f00; /* Red links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #900; /* Darker red on hover */
+    text-decoration: underline;
+}
+
+/* FAQ Section */
+#faq {
+    background-color: #fff; /* White background */
+    border: 1px solid #000; /* Black border */
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 1rem;
+}
+
+footer a {
+    color: #f00; /* Red footer links */
+}
+
+footer a:hover {
+    color: #fff; /* White on hover */
+}
+
+/* Images */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #000; /* Black border for images */
+    border-radius: 5px;
+}
